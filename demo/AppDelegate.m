@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "LeaderVC.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +18,6 @@
     NSUserDefaults * userDefaults = [NSUserDefaults standardUserDefaults];
     if(![userDefaults boolForKey:@"firstStart"]){
         NSLog(@"第一次启动");
-        self.window.rootViewController = [[LeaderVC alloc]init];
         
         [userDefaults setBool:YES forKey:@"firstStart"];
         
