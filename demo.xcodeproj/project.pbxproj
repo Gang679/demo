@@ -10,12 +10,21 @@
 		4D7D92481D517EE700BCF6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92471D517EE700BCF6B6 /* main.m */; };
 		4D7D924B1D517EE700BCF6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D924A1D517EE700BCF6B6 /* AppDelegate.m */; };
 		4D7D924E1D517EE700BCF6B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D924D1D517EE700BCF6B6 /* ViewController.m */; };
-		4D7D92511D517EE700BCF6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D924F1D517EE700BCF6B6 /* Main.storyboard */; };
 		4D7D92541D517EE700BCF6B6 /* demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92521D517EE700BCF6B6 /* demo.xcdatamodeld */; };
 		4D7D92561D517EE700BCF6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D92551D517EE700BCF6B6 /* Assets.xcassets */; };
 		4D7D92591D517EE700BCF6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D92571D517EE700BCF6B6 /* LaunchScreen.storyboard */; };
 		4D7D92641D517EE700BCF6B6 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92631D517EE700BCF6B6 /* demoTests.m */; };
 		4D7D926F1D517EE700BCF6B6 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D926E1D517EE700BCF6B6 /* demoUITests.m */; };
+		4D7D927D1D517F7600BCF6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D927C1D517F7600BCF6B6 /* Main.storyboard */; };
+		4D7D927F1D517FBE00BCF6B6 /* MCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D927E1D517FBE00BCF6B6 /* MCTabBarViewController.m */; };
+		4D7D92831D51800F00BCF6B6 /* LeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92821D51800F00BCF6B6 /* LeaderVC.m */; };
+		4D7D92861D51807600BCF6B6 /* ImageAndTitleVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92851D51807600BCF6B6 /* ImageAndTitleVerticalButton.m */; };
+		4D7D92891D51809100BCF6B6 /* GZRotateButtonOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92881D51809100BCF6B6 /* GZRotateButtonOverlayView.m */; };
+		4D7D928C1D5180DD00BCF6B6 /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D928B1D5180DD00BCF6B6 /* UIView+ST.m */; };
+		4D7D92971D51823600BCF6B6 /* MCMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92961D51823600BCF6B6 /* MCMainTableViewController.m */; };
+		4D7D929A1D51829A00BCF6B6 /* MCDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D92991D51829A00BCF6B6 /* MCDynamicViewController.m */; };
+		4D7D929D1D5182E900BCF6B6 /* MCIndianaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D929C1D5182E900BCF6B6 /* MCIndianaTableViewController.m */; };
+		4D7D92A01D51833C00BCF6B6 /* MCMyselfTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D929F1D51833C00BCF6B6 /* MCMyselfTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +51,6 @@
 		4D7D924A1D517EE700BCF6B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D7D924C1D517EE700BCF6B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4D7D924D1D517EE700BCF6B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4D7D92501D517EE700BCF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D7D92531D517EE700BCF6B6 /* demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demo.xcdatamodel; sourceTree = "<group>"; };
 		4D7D92551D517EE700BCF6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7D92581D517EE700BCF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +61,25 @@
 		4D7D926A1D517EE700BCF6B6 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7D926E1D517EE700BCF6B6 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		4D7D92701D517EE700BCF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7D927C1D517F7600BCF6B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D7D927E1D517FBE00BCF6B6 /* MCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabBarViewController.m; sourceTree = "<group>"; };
+		4D7D92801D517FD400BCF6B6 /* MCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabBarViewController.h; sourceTree = "<group>"; };
+		4D7D92811D51800F00BCF6B6 /* LeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderVC.h; sourceTree = "<group>"; };
+		4D7D92821D51800F00BCF6B6 /* LeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderVC.m; sourceTree = "<group>"; };
+		4D7D92841D51807600BCF6B6 /* ImageAndTitleVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTitleVerticalButton.h; sourceTree = "<group>"; };
+		4D7D92851D51807600BCF6B6 /* ImageAndTitleVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTitleVerticalButton.m; sourceTree = "<group>"; };
+		4D7D92871D51809100BCF6B6 /* GZRotateButtonOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZRotateButtonOverlayView.h; sourceTree = "<group>"; };
+		4D7D92881D51809100BCF6B6 /* GZRotateButtonOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZRotateButtonOverlayView.m; sourceTree = "<group>"; };
+		4D7D928A1D5180DD00BCF6B6 /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
+		4D7D928B1D5180DD00BCF6B6 /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ST.m"; sourceTree = "<group>"; };
+		4D7D92951D51823600BCF6B6 /* MCMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainTableViewController.h; sourceTree = "<group>"; };
+		4D7D92961D51823600BCF6B6 /* MCMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainTableViewController.m; sourceTree = "<group>"; };
+		4D7D92981D51829A00BCF6B6 /* MCDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDynamicViewController.h; sourceTree = "<group>"; };
+		4D7D92991D51829A00BCF6B6 /* MCDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDynamicViewController.m; sourceTree = "<group>"; };
+		4D7D929B1D5182E900BCF6B6 /* MCIndianaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIndianaTableViewController.h; sourceTree = "<group>"; };
+		4D7D929C1D5182E900BCF6B6 /* MCIndianaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCIndianaTableViewController.m; sourceTree = "<group>"; };
+		4D7D929E1D51833C00BCF6B6 /* MCMyselfTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMyselfTableViewController.h; sourceTree = "<group>"; };
+		4D7D929F1D51833C00BCF6B6 /* MCMyselfTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMyselfTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +130,12 @@
 		4D7D92451D517EE700BCF6B6 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				4D7D92491D517EE700BCF6B6 /* AppDelegate.h */,
-				4D7D924A1D517EE700BCF6B6 /* AppDelegate.m */,
-				4D7D924C1D517EE700BCF6B6 /* ViewController.h */,
-				4D7D924D1D517EE700BCF6B6 /* ViewController.m */,
-				4D7D924F1D517EE700BCF6B6 /* Main.storyboard */,
+				4D7D928D1D51810C00BCF6B6 /* AppDelegate */,
+				4D7D928E1D51812D00BCF6B6 /* 引导页 */,
+				4D7D928F1D51815D00BCF6B6 /* 旋转动画 */,
+				4D7D92901D51818800BCF6B6 /* VC */,
 				4D7D92551D517EE700BCF6B6 /* Assets.xcassets */,
+				4D7D927C1D517F7600BCF6B6 /* Main.storyboard */,
 				4D7D92571D517EE700BCF6B6 /* LaunchScreen.storyboard */,
 				4D7D925A1D517EE700BCF6B6 /* Info.plist */,
 				4D7D92521D517EE700BCF6B6 /* demo.xcdatamodeld */,
@@ -141,6 +168,88 @@
 				4D7D92701D517EE700BCF6B6 /* Info.plist */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		4D7D928D1D51810C00BCF6B6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D92491D517EE700BCF6B6 /* AppDelegate.h */,
+				4D7D924A1D517EE700BCF6B6 /* AppDelegate.m */,
+				4D7D92801D517FD400BCF6B6 /* MCTabBarViewController.h */,
+				4D7D927E1D517FBE00BCF6B6 /* MCTabBarViewController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4D7D928E1D51812D00BCF6B6 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D92811D51800F00BCF6B6 /* LeaderVC.h */,
+				4D7D92821D51800F00BCF6B6 /* LeaderVC.m */,
+			);
+			name = "引导页";
+			sourceTree = "<group>";
+		};
+		4D7D928F1D51815D00BCF6B6 /* 旋转动画 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D92841D51807600BCF6B6 /* ImageAndTitleVerticalButton.h */,
+				4D7D92851D51807600BCF6B6 /* ImageAndTitleVerticalButton.m */,
+				4D7D92871D51809100BCF6B6 /* GZRotateButtonOverlayView.h */,
+				4D7D92881D51809100BCF6B6 /* GZRotateButtonOverlayView.m */,
+				4D7D928A1D5180DD00BCF6B6 /* UIView+ST.h */,
+				4D7D928B1D5180DD00BCF6B6 /* UIView+ST.m */,
+			);
+			name = "旋转动画";
+			sourceTree = "<group>";
+		};
+		4D7D92901D51818800BCF6B6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D92911D5181D500BCF6B6 /* 首页 */,
+				4D7D92921D5181DE00BCF6B6 /* 动态 */,
+				4D7D92931D5181E800BCF6B6 /* 消息 */,
+				4D7D92941D5181F200BCF6B6 /* 我的 */,
+				4D7D924C1D517EE700BCF6B6 /* ViewController.h */,
+				4D7D924D1D517EE700BCF6B6 /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		4D7D92911D5181D500BCF6B6 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D92951D51823600BCF6B6 /* MCMainTableViewController.h */,
+				4D7D92961D51823600BCF6B6 /* MCMainTableViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		4D7D92921D5181DE00BCF6B6 /* 动态 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D92981D51829A00BCF6B6 /* MCDynamicViewController.h */,
+				4D7D92991D51829A00BCF6B6 /* MCDynamicViewController.m */,
+			);
+			name = "动态";
+			sourceTree = "<group>";
+		};
+		4D7D92931D5181E800BCF6B6 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D929B1D5182E900BCF6B6 /* MCIndianaTableViewController.h */,
+				4D7D929C1D5182E900BCF6B6 /* MCIndianaTableViewController.m */,
+			);
+			name = "消息";
+			sourceTree = "<group>";
+		};
+		4D7D92941D5181F200BCF6B6 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D929E1D51833C00BCF6B6 /* MCMyselfTableViewController.h */,
+				4D7D929F1D51833C00BCF6B6 /* MCMyselfTableViewController.m */,
+			);
+			name = "我的";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +358,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7D927D1D517F7600BCF6B6 /* Main.storyboard in Resources */,
 				4D7D92591D517EE700BCF6B6 /* LaunchScreen.storyboard in Resources */,
 				4D7D92561D517EE700BCF6B6 /* Assets.xcassets in Resources */,
-				4D7D92511D517EE700BCF6B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +386,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7D924E1D517EE700BCF6B6 /* ViewController.m in Sources */,
+				4D7D92861D51807600BCF6B6 /* ImageAndTitleVerticalButton.m in Sources */,
+				4D7D927F1D517FBE00BCF6B6 /* MCTabBarViewController.m in Sources */,
 				4D7D924B1D517EE700BCF6B6 /* AppDelegate.m in Sources */,
+				4D7D929D1D5182E900BCF6B6 /* MCIndianaTableViewController.m in Sources */,
+				4D7D928C1D5180DD00BCF6B6 /* UIView+ST.m in Sources */,
+				4D7D92831D51800F00BCF6B6 /* LeaderVC.m in Sources */,
+				4D7D92A01D51833C00BCF6B6 /* MCMyselfTableViewController.m in Sources */,
 				4D7D92541D517EE700BCF6B6 /* demo.xcdatamodeld in Sources */,
+				4D7D929A1D51829A00BCF6B6 /* MCDynamicViewController.m in Sources */,
 				4D7D92481D517EE700BCF6B6 /* main.m in Sources */,
+				4D7D92971D51823600BCF6B6 /* MCMainTableViewController.m in Sources */,
+				4D7D92891D51809100BCF6B6 /* GZRotateButtonOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +433,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D7D924F1D517EE700BCF6B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D7D92501D517EE700BCF6B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D7D92571D517EE700BCF6B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -503,6 +613,7 @@
 				4D7D92751D517EE700BCF6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D7D92761D517EE700BCF6B6 /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +622,7 @@
 				4D7D92781D517EE700BCF6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D7D92791D517EE700BCF6B6 /* Build configuration list for PBXNativeTarget "demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +631,7 @@
 				4D7D927B1D517EE700BCF6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

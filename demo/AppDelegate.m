@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LeaderVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    NSUserDefaults * userDefaults = [NSUserDefaults standardUserDefaults];
+    if(![userDefaults boolForKey:@"firstStart"]){
+        NSLog(@"第一次启动");
+        self.window.rootViewController = [[LeaderVC alloc]init];
+        
+        [userDefaults setBool:YES forKey:@"firstStart"];
+        
+    }else{
+        NSLog(@"不是第一次启动");
+        //程序3秒钟进入
+        [NSThread sleepForTimeInterval:3];
+        [userDefaults setBool:NO forKey:@"firstStart"];
+        
+    }
+
     return YES;
 }
 
